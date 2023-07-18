@@ -12,7 +12,7 @@ const App = () => {
       <div>{inputValue}</div>
       <div className="child">
         <h1>Child Component</h1>
-        <input onChange={(e) => setinputValue(e.target.value)} />
+        <input type="text" onChange={(e) => setinputValue(e.target.value)}className="child" />
       </div>
     </div>
   )
